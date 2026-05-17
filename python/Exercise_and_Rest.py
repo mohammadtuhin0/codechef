@@ -1,8 +1,8 @@
 import sys
 
 if 'LOCAL' in sys.argv:
-    sys.stdin = open('input.txt', 'r')
-    sys.stdout = open('output.txt', 'w')
+    sys.stdin = open('input.txt', 'w')
+    sys.stdout = open('output.txt', 'r')
 
 def solve():
     n = int(sys.stdin.readline())
