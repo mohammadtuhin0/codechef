@@ -1,16 +1,15 @@
+# cook your dish here
+
 import math
-from collections import deque, Counter, defaultdict
-from bisect import bisect_left, bisect_right
-from heapq import heappush, heappop, heapify
 import sys
 
 if 'LOCAL' in sys.argv:
     sys.stdin = open('input.txt', 'w')
     sys.stdout = open('output.txt', 'r')
-    
+
 def solve():
-    x = int(sys.stdin.readline())
-    multi = 2 * x
-    print(multi)
+    R, C, E = map(int, sys.stdin.readline().split())
+    m = (R + E) * C
+    print(m)
     
 solve()
