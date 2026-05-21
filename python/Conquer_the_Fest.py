@@ -11,7 +11,7 @@ if 'LOCAL' in sys.argv:
 def solve():
     N, B = map(int, sys.stdin.readline().split())
     
-    if N == B * 10:
+    if N >= B * 10:
         print("YES")
     else:
         print("NO")
