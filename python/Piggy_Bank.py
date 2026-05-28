@@ -16,4 +16,5 @@ def solve():
     prize = eliminated * 10000
     print(prize)
     
-solve()
+if __name__ == "__main__":
+    solve()
