@@ -5,8 +5,8 @@ from heapq import heappush, heappop, heapify
 import sys
 
 if 'LOCAL' in sys.argv:
-    sys.stdin = open('input.txt', 'w')
-    sys.stdout = open('output.txt', 'r')
+    sys.stdin = open('input.txt', 'r')
+    sys.stdout = open('output.txt', 'w')
     
 def solve():
     x, y = map(int, sys.stdin.readline().split())
