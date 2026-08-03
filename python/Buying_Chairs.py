@@ -1,14 +1,13 @@
 import sys
 
 def solve():
-    input = sys.stdin.read 
+    input = sys.stdin.read
     data = input().split()
     
-    T = int(input[0])
+    T = int(data[0])
     idx = 1
     
     results = []
-    
     for _ in range(T):
         W = int(data[idx])
         P = int(data[idx+1])
@@ -21,6 +20,6 @@ def solve():
             results.append(str(W + K))
             
     print('\n'.join(results))
-    
+
 if __name__ == '__main__':
     solve()
