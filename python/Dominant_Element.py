@@ -8,7 +8,7 @@ for _ in range(int(input())):
 
     # Count the frequency of each element in the list
     for x in a:
-        freq[x] += 1  # Increment the count for element x
+        freq[x] += 1  # Increment the count for element  x
 
     # Find the maximum frequency of any element in the list
     mx = max(freq)
