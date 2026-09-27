@@ -8,6 +8,7 @@ def solve():
         return
 
     T = int(data[0])
+    
     idx = 1
     
     for _ in range(T):
