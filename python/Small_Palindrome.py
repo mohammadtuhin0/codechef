@@ -5,5 +5,6 @@ for _ in range(t):
     
     
     left = "1" * (x // 2) + "2" * (y // 2)
+    
     answer = left + left[::-1]
     print(answer)
